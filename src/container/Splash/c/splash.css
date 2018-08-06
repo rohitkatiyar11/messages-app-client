@@ -1,0 +1,42 @@
+.splash{
+ width: 100%;
+ max-width: 360px;
+ float: none;
+ margin: auto;
+    height: 90vh;
+    background: #63b208;
+ font-family: 'Roboto', sans-serif;
+ position: relative;
+}
+
+.splash-icon{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+}
+
+@media only screen and (max-width: 900px) {
+
+    body{
+        margin: 0;
+    }
+    .splash{
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        margin: auto;
+        height: 100vh;
+        background: #63b208;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+    }
+    .splash-icon{
+        position: absolute;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50px, -50px);
+    }
+}

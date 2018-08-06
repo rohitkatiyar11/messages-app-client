@@ -1,0 +1,44 @@
+.intro-page{
+    width: 100%;
+    max-width: 360px;
+    float: none;
+    margin: auto;
+    height: 90vh;
+    background: #ffffff;
+    border: 1px solid #dedbdb;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.intro-icon img{
+    position: absolute;
+    width: 36%;
+    top: 18%;
+    left: 50%;
+    transform: translate(-60px, -50px);
+}
+.welcome-text{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sms-text{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+@media only screen and (max-width: 600px) {
+    .intro-page{
+        width: 100%;
+        max-width: 100%;
+        float: none;
+        margin: auto;
+        height: 100vh;
+        background: #ffffff;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+    }
+}
